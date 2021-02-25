@@ -29,3 +29,18 @@ var jugo = {
 console.log("jugo", jugo);
 // Y si quiero solo ver un indice se puede selecionar lo selecciono directo
 console.log("jugo", jugo.ingrediente1);
+
+// Variables DOM (Document Object Model = Modelo de Objetos del Documento)
+/*El DOM es la estructura de objetos que genera el navegador cuando se carga un
+documento y se puede alterar mediante Javascript para cambiar dinámicamente los 
+contenidos y aspectos de la página*/
+
+var caja = document.querySelector('#caja');
+console.log("caja", caja);
+
+caja.style.width = "50px";
+caja.style.height = "50px";
+caja.style.background = "Red";
+
+var cajas = document.querySelectorAll('.cajas');
+console.log("cajas", cajas);
