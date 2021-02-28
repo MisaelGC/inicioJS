@@ -30,5 +30,6 @@ for (var i = 0; i < cajas.length; i++) {
   cajas[i].style.width = "50px";
   cajas[i].style.height = "50px";
   cajas[i].style.background = "blue";
-  cajas[i].style.marginTop = "2px";
+  cajas[i].style.marginRight = "2px";
+  cajas[i].style.float = "left";
 }
